@@ -1,4 +1,4 @@
-# README
+# Email spam classifier
 
 ## Project Overview
 This project demonstrates email spam classification using a machine learning model. The project also includes a Streamlit web interface where users can input email text to classify it as spam or non-spam.
