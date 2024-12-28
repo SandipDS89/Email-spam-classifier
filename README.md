@@ -1,4 +1,4 @@
-# README
+# Email spam classifier
 
 ## Project Overview
 This project demonstrates email spam classification using a machine learning model. The project also includes a Streamlit web interface where users can input email text to classify it as spam or non-spam.
@@ -16,11 +16,19 @@ This project demonstrates email spam classification using a machine learning mod
 - Contributing
 
 ## Project Structure
-- `spam_classifier.py`: Script for training and testing the spam classification model.
-- `app.py`: Streamlit web application to interact with the model and classify input email text.
-- `requirements.txt`: Python dependencies for running the project.
-- `README.md`: Description and instructions for the project.
-- `example_email.txt` (optional): Sample email for testing.
+Email spam.ipynb: Jupyter Notebook for exploratory data analysis and model development.
+
+README.md: Description and instructions for the project.
+
+app.py: Streamlit web application to interact with the model and classify input email text.
+
+model.pkl: Pre-trained model serialized using pickle.
+
+requirements.txt: Python dependencies for running the project.
+
+spam.csv: Dataset containing labeled emails for training and testing.
+
+vectorizer.pkl: Serialized vectorizer for text preprocessing.
 
 ## Features
 ### Spam Classifier:
